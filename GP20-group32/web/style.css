@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;800&display=swap');
+
+
+body {
+    font-family: 'Sen', sans-serif;
+    background-image: url(bananas.png);
+}
+
+#uniphoto {
+    width: 264px;
+    border: 4px solid #563440;
+    border-radius: 100% 100% 100% 100%;
+}
+
+#content {
+    border: 4px solid #563440;
+    border-bottom: none;
+    background-color: rgb(154, 135, 157, 0.7);
+    padding-top: 3em;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 100% 100% 0 0;
+    position: relative;
+}
+
+#searchimage {
+    width: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    width: 55px;
+}
+
+#searchimage:hover {
+    width: 55px;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 800;
+    color: #02e9ca;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #F0F8FF;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 1.1em;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position: 95% center;
+    border-radius: 5em;
+    border: 0.2em solid #824E76;
+    transition: all 250ms ease-in-out;
+    font-family: 'Sen', sans-serif;
+    color: #F0F8FF;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+input::placeholder {
+    font-family: 'Sen', sans-serif;
+    color: #0b1a18;
+    opacity: 60%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: rgb(2, 0, 1);
+}
+
+#responsesize {
+    border: 4px solid #563440;
+    border-bottom: none;
+    border-top: none;
+    color: #02e9ca;
+    text-align: center;
+    background-color: rgb(154, 135, 157, 0.7);
+    font-weight: 500;
+    font-size: 1.3em;
+    display: inline-block;
+    width: 100%;
+    text-decoration: underline;
+}
+
+#urllist {
+    border: 4px solid #563440;
+    border-top: none;
+    color: #563440;
+    text-align: center;
+    border-radius: 0 0 3% 3%;
+    background-color: rgb(154, 135, 157, 0.7);
+    display: inline-block;
+    width: 100%;
+    align-self: center;
+}
+
+#urllist:hover {
+    color: #02e9ca;
+}
+
+input:hover,
+input:focus {
+    padding: 1.2em;
+    outline: 0;
+    border: 0.1em solid transparent;
+    border-bottom: 0.05em solid #02e9ca;
+    border-radius: 0;
+    background-position: 100% center;
+}
+
+a{
+    color: azure;
+}
+
+a:visited {
+    color: bisque; 
+}
+
+a:hover {
+    color: rgb(178, 210, 238);
+}

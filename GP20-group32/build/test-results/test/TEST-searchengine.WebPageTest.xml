@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="searchengine.WebPageTest" tests="13" skipped="1" failures="0" errors="0" timestamp="2021-04-01T13:49:52" hostname="LAPTOP-C32C7KEK" time="0.061">
+  <properties/>
+  <testcase name="testEquals_sameReference()" classname="searchengine.WebPageTest" time="0.004"/>
+  <testcase name="testEquals_differentDataTypes()" classname="searchengine.WebPageTest" time="0.004"/>
+  <testcase name="isEmpty_twoKeywords_false()" classname="searchengine.WebPageTest" time="0.002"/>
+  <testcase name="testEquals_caseSensitive_yes()" classname="searchengine.WebPageTest" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase name="justTestingAGetter()" classname="searchengine.WebPageTest" time="0.002"/>
+  <testcase name="testEquals_caseSensitive_no()" classname="searchengine.WebPageTest" time="0.001"/>
+  <testcase name="justTestingAGetter_theTitleOne()" classname="searchengine.WebPageTest" time="0.002"/>
+  <testcase name="compareTo_sameScoreDifferentUrl()" classname="searchengine.WebPageTest" time="0.004"/>
+  <testcase name="isEmpty_noKeywords_true()" classname="searchengine.WebPageTest" time="0.001"/>
+  <testcase name="testHashCode()" classname="searchengine.WebPageTest" time="0.002"/>
+  <testcase name="compareTo_differentScore()" classname="searchengine.WebPageTest" time="0.002"/>
+  <testcase name="testingtheFinalScoreGetter()" classname="searchengine.WebPageTest" time="0.002"/>
+  <testcase name="justTestingTheSetter()" classname="searchengine.WebPageTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
